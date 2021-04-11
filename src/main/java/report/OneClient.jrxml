@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="OneClient" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="43ad0776-651f-4792-bad7-20eb1d2f277a">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<field name="nome" class="java.lang.String"/>
+	<field name="dtCadastro" class="java.lang.String"/>
+	<field name="tipo" class="java.lang.String"/>
+	<field name="cgc_cpf" class="java.lang.String"/>
+	<field name="ie" class="java.lang.String"/>
+	<field name="rg" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="262" height="68" uuid="3a8add8c-1393-4031-b57f-3f43cd6db9da"/>
+				<textElement>
+					<font size="50" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BankMV]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="92" height="20" uuid="1aa08067-d86e-42d7-821d-ba54028ffc26"/>
+				<text><![CDATA[nome]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="92" y="0" width="92" height="20" uuid="71517303-2e3e-45f2-95de-b9611345ffac"/>
+				<text><![CDATA[dtCadastro]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="184" y="0" width="92" height="20" uuid="294e3f4f-56db-49c7-852e-bbf9c01ed394"/>
+				<text><![CDATA[tipo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="276" y="0" width="92" height="20" uuid="0f89b4b6-cdc7-4f51-86d2-9d37d3be4638"/>
+				<text><![CDATA[cgc_cpf]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="368" y="0" width="92" height="20" uuid="608cf1dd-5fda-4064-907f-0fdb6873730d"/>
+				<text><![CDATA[ie]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="0" width="92" height="20" uuid="e54ae8a6-c883-414c-95c7-8f8b7386e3f2"/>
+				<text><![CDATA[rg]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="37" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="92" height="20" uuid="9d584190-4e7b-4065-8536-b5cefa082ae1"/>
+				<textFieldExpression><![CDATA[$F{nome}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="92" y="0" width="92" height="20" uuid="9021bf75-aa77-428f-ab21-6b941a04c12a"/>
+				<textFieldExpression><![CDATA[$F{dtCadastro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="184" y="0" width="92" height="20" uuid="8564219a-479d-4c38-a555-c72ecd88cc61"/>
+				<textFieldExpression><![CDATA[$F{tipo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="276" y="0" width="92" height="20" uuid="d3f751f1-740a-4d9a-b8fc-32089056deae"/>
+				<textFieldExpression><![CDATA[$F{cgc_cpf}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="368" y="0" width="92" height="20" uuid="f5c7ece3-f070-4989-8024-373e30f9c2e5"/>
+				<textFieldExpression><![CDATA[$F{ie}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="460" y="0" width="92" height="20" uuid="0f0ba707-71bd-4354-b205-675593c17d76"/>
+				<textFieldExpression><![CDATA[$F{rg}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
