@@ -1,8 +1,12 @@
 ## CRUD JDBC IREPORT DAO JAVA
 
  **SOBRE:**
+<p align="center">
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="https://github.com/joaotorresmarques/MVBANK/blob/main/src/main/java/assets/printdatela.jpg" width="50%" height="50%"/>
+
+</p>
+
  
 O projeto consiste na criação de um sistema de controle de receita e despesa em Java, utilizando JDBC comunicando-se com o banco ORACLE, com saída de relatorio no IREPORT.
 
@@ -14,23 +18,19 @@ O projeto consiste na criação de um sistema de controle de receita e despesa e
 
 <p align="center">
 
-<img src="https://github.com/DoisLucas/CRUD-JDBC/blob/master/images/Java_jdbc.png" width="50%" height="50%"/>
+<img src="https://github.com/joaotorresmarques/MVBANK/blob/main/src/main/java/assets/DAO.jpg" width="50%" height="50%"/>
 
 </p>
 
 **OBSERVAÇÕES:**
-
-> O relacionamento entre **CARRO** e **VENDA** passa a ser 1,1 devido a constraint UNIQUE atribuida a chave estrangeira de **CARRO** na tabela **VENDA**, fazendo com que um **CARRO** só possua uma **VENDA**.
->
-> Uma pessoa pode estar em varias venda (pode ter varios carros), porém um determinado carro so pode estar em uma unica venda (só pode ser vendido uma única vez).
-
->A estrutura do projeto e as credenciais do banco deve ser trocadas de acordo com as suas necessidades, assim como a importação da biblioteca JDBC do banco desejado.
 
 >Utilizar a clase de teste(src/teste/java) para validar o CRUD
 
 >Na pasta lib, tem as bibliotecas para utilização do Ireport 5.6 e o JDBC do ORACLE(Você não consegue baixar as dependencias via maven da oracle, por politicas se segurança)
 
 >Na clase main do projeto encontra-se a massa de dados necessaria para testes.
+
+>A classe responsavel de geração do ireport é Relatorio, basta descomentar no main para gerar :)
 
 **ESTRUTURA SQL:**
 
