@@ -14,7 +14,7 @@ O projeto consiste na criação de um sistema de controle de receita e despesa e
 
 **JDBC (Java Database Connectivity):** é um conjunto de classes e interfaces (API) escritas em Java que fazem o envio de instruções SQL para qualquer banco de dados relacional, como: MySQL, PostgreSQL, SQL Server, Oracle, DB2 IBM dentre outros.
 
-**DAO: ** é um padrão para aplicações que utilizam persistência de dados, onde tem a separação das regras de negócio das regras de acesso a banco de dados, implementada com linguagens de programação orientadas a objetos.
+**DAO:** é um padrão para aplicações que utilizam persistência de dados, onde tem a separação das regras de negócio das regras de acesso a banco de dados, implementada com linguagens de programação orientadas a objetos.
 
 <p align="center">
 
@@ -182,7 +182,7 @@ end;
 
 
 **MODELO LÓGICO:**
-<img src= "https://image.ibb.co/bARTFS/Sem_t_tulo.png" 
+<img src= "https://github.com/joaotorresmarques/MVBANK/blob/main/src/main/java/assets/ireport.jpg"" 
      align="left" width="100%" height="100%">
  
  
