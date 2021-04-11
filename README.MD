@@ -32,6 +32,8 @@ O projeto consiste na criação de um sistema de controle de receita e despesa e
 
 >A classe responsavel de geração do ireport é Relatorio, basta descomentar no main para gerar :)
 
+>Na pasta Assets encontra-se o .sql responsavel para geração dos objetos de banco.
+
 **ESTRUTURA SQL:**
 
 ```SQL
