@@ -181,8 +181,8 @@ end;
 ```
 
 
-**MODELO LÓGICO:**
-<img src= "https://github.com/joaotorresmarques/MVBANK/blob/main/src/main/java/assets/ireport.jpg"" 
+**GERAÇÃO IREPORT**
+<img src= "https://github.com/joaotorresmarques/MVBANK/blob/main/src/main/java/assets/ireport.jpg" 
      align="left" width="100%" height="100%">
  
  
